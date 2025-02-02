@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/LOGITECH/static/css/main.76829eba.css",
+    "main.js": "/LOGITECH/static/js/main.8235535e.js",
+    "static/media/dfs-corporate-banner-desktop.jpg": "/LOGITECH/static/media/dfs-corporate-banner-desktop.62d71ee9c443d57b6bfd.jpg",
+    "static/media/dfs-corporate-banner-tablet.jpg": "/LOGITECH/static/media/dfs-corporate-banner-tablet.00af132bf37a239b4199.jpg",
+    "static/media/on-the-go-horizontal-gallery-desktop-e.webp": "/LOGITECH/static/media/on-the-go-horizontal-gallery-desktop-e.aa3a90095e662e825b73.webp",
+    "static/media/keys-to-go-2-graphite-gallery-1.png": "/LOGITECH/static/media/keys-to-go-2-graphite-gallery-1.54e5a5b23ec866b8ecef.png",
+    "static/media/mx-master-series-vertical-gallery-desktop-b.webp": "/LOGITECH/static/media/mx-master-series-vertical-gallery-desktop-b.35743065ccba40492d19.webp",
+    "static/media/keys-to-go-2-hpb-secondary.webp": "/LOGITECH/static/media/keys-to-go-2-hpb-secondary.f322aea8378e73fa5da6.webp",
+    "static/media/ipad-keyboard-cases-vertical-gallery-tablet-2-b.webp": "/LOGITECH/static/media/ipad-keyboard-cases-vertical-gallery-tablet-2-b.23572a8ae9cbf20ab744.webp",
+    "static/media/mx-for-coders-vertical-gallery-desktop-d.webp": "/LOGITECH/static/media/mx-for-coders-vertical-gallery-desktop-d.d814cb58fc47d5280c93.webp",
+    "static/media/Logitech_logo.svg.png": "/LOGITECH/static/media/Logitech_logo.svg.5973d1eb3dc6b426a558.png",
+    "static/media/keyboards-vertical-gallery-tablet-2-c.webp": "/LOGITECH/static/media/keyboards-vertical-gallery-tablet-2-c.f6a6361c22655b2a943e.webp",
+    "static/media/dfs-corporate-banner-mobile.jpg": "/LOGITECH/static/media/dfs-corporate-banner-mobile.d389910024ba227514f5.jpg",
+    "static/media/pop-icon-hpb-secondary.webp": "/LOGITECH/static/media/pop-icon-hpb-secondary.f477058ab8a70bb49e1b.webp",
+    "static/media/ergo-series-horizontal-gallery-desktop-a.webp": "/LOGITECH/static/media/ergo-series-horizontal-gallery-desktop-a.eb2635f20c3f661d5434.webp",
+    "static/media/combo-vertical-gallery-tablet-2-d.webp": "/LOGITECH/static/media/combo-vertical-gallery-tablet-2-d.9c5157199152e160e50a.webp",
+    "static/media/mx-for-creatives-horizontal-gallery-desktop-f.webp": "/LOGITECH/static/media/mx-for-creatives-horizontal-gallery-desktop-f.b0b79c662cc257f0cea6.webp",
+    "static/media/combo-touch-ipad-air-12.9-inch-hpb-desktop1.webp": "/LOGITECH/static/media/combo-touch-ipad-air-12.9-inch-hpb-desktop1.0278a862251dd1f3f64d.webp",
+    "static/media/webcams-vertical-gallery-tablet-2-f.webp": "/LOGITECH/static/media/webcams-vertical-gallery-tablet-2-f.c9d55445c4c155218acd.webp",
+    "static/media/us-int-combo-touch-ipad-air-11-inch-gallery1.webp": "/LOGITECH/static/media/us-int-combo-touch-ipad-air-11-inch-gallery1.ee452e7054e3d32049c3.webp",
+    "static/media/lift-gallery-rose-2.webp": "/LOGITECH/static/media/lift-gallery-rose-2.3e86df85c72a2997e714.webp",
+    "static/media/headsets-earbuds-vertical-gallery-tablet-2-e.webp": "/LOGITECH/static/media/headsets-earbuds-vertical-gallery-tablet-2-e.bb2fdd2079f7e9d20b3b.webp",
+    "static/media/mx-brio-3qtr-front-right-graphite-gallery.webp": "/LOGITECH/static/media/mx-brio-3qtr-front-right-graphite-gallery.43ae177a4be343a3c0f3.webp",
+    "static/media/mice-vertical-gallery-tablet-2-a.webp": "/LOGITECH/static/media/mice-vertical-gallery-tablet-2-a.d2e29a000e42c6298ea5.webp",
+    "static/media/mx-master-3s-mouse-back-view-graphite.webp": "/LOGITECH/static/media/mx-master-3s-mouse-back-view-graphite.6133c843178424deda7b.webp",
+    "static/media/logitechg-grey.svg": "/LOGITECH/static/media/logitechg-grey.abe8e786763f0d345b9b661ef5787f39.svg",
+    "static/media/logitechg.svg": "/LOGITECH/static/media/logitechg.369dfcf5e16ad7d1d1d1d0387b38c106.svg",
+    "static/media/shop-mice.webp": "/LOGITECH/static/media/shop-mice.d3e7bf1ded77434adb16.webp",
+    "static/media/earth-americas-solid.svg": "/LOGITECH/static/media/earth-americas-solid.012bfc39d44c500e0bd5e712286bb104.svg",
+    "index.html": "/LOGITECH/index.html",
+    "main.76829eba.css.map": "/LOGITECH/static/css/main.76829eba.css.map",
+    "main.8235535e.js.map": "/LOGITECH/static/js/main.8235535e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76829eba.css",
+    "static/js/main.8235535e.js"
+  ]
+}
