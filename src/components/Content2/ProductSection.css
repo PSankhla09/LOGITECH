@@ -1,7 +1,7 @@
 .title {
     display: flex;
-    flex-direction: row; /* Arrange buttons vertically */
-    align-items: flex-start; /* Align items to the left */
+    flex-direction: row; 
+    align-items: flex-start; 
     border-bottom: 1px lightgrey solid;
     padding: 0px;
     margin-left: 10%;
@@ -12,7 +12,7 @@
   }
   
   .nothing,.nothing1 {
-    margin: 0px 0px; /* Add some space between buttons */
+    margin: 0px 0px; 
     padding: 0px 0px;
     padding-right: 35px;
     border:none;
@@ -27,7 +27,7 @@
   }
   
   .nothing:hover, .nothing1 {
-     /* Add hover effect */
+    
     text-decoration: underline 2px;
     color:black;
   }
@@ -56,34 +56,34 @@
     text-align: left;
     font-weight: bold;
   }
-/* Prevent horizontal scrolling */
+
 html, body {
   overflow-x: hidden;
   width: 100%;
-  margin: 0; /* Ensure no extra margin on body or html */
+  margin: 0; 
 }
 
 @media(max-width: 1024px) {
   .prod {
-    width: 90%; /* Use full width */
-    margin-left: 5%; /* Remove any left margin */
-    padding: 0; /* Remove padding that might cause overflow */
+    width: 90%; 
+    margin-left: 5%; 
+    padding: 0; 
   }
   .products {
     width: 100%;
-    padding: 0; /* Ensure no extra padding */
+    padding: 0; 
   }
   .ayush {
     max-height: 100%;
-    padding: 0; /* Remove padding */
+    padding: 0; 
   }
   .ayush img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* Ensure proper fitting of images */
+    object-fit: cover; 
   }
   .ayush:nth-child(3) {
-    display: none; /* Hide 3rd child */
+    display: none; 
   }
   .ayush p {
     font-size: 1rem;

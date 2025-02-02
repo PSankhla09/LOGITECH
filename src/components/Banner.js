@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './Banner.css';
-import { FaSearch, FaUser, FaBars, FaTimes } from 'react-icons/fa'; // Import icons for hamburger
+import { FaSearch, FaUser, FaBars, FaTimes } from 'react-icons/fa'; 
 import logoBanner from './Logitech_logo.svg.png';
-import { dropdownItems } from './dropdown'; // Import dropdown data
+import { dropdownItems } from './dropdown'; 
 
 const Banner = () => {
   const [imageSrc, setImageSrc] = useState('');
   const [activeDropdown, setActiveDropdown] = useState(null);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State for hamburger menu
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); 
 
   useEffect(() => {
     const updateImage = () => {

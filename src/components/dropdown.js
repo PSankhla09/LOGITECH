@@ -1,5 +1,5 @@
 import React from "react";
-import Mice from "./shop-mice.webp"; // Ensure the correct image path
+import Mice from "./shop-mice.webp"; 
 
 export const dropdownItems = {
   SHOP: [
@@ -29,7 +29,7 @@ const Dropdown = ({ category, isOpen }) => {
   return (
     <div className="dropdown-menu">
       {dropdownItems[category]?.map((item, index) => {
-        console.log(item.img); // Debug the image path
+        console.log(item.img); 
         return (
           <a key={index} href={item.link} className="dropdown-item">
             {item.img && <img src={item.img} alt={item.name} className="dropdown-image" />}

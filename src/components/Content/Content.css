@@ -9,7 +9,7 @@
     width: 100%;
 }
 .harsh, .shlok, .kushagra {
-    width:100%; /* Adjust the flex-basis to control the width of each item */
+    width:100%;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -45,7 +45,7 @@
 .shop-now {
     display: inline-flex;
     align-items: center;
-    gap: 5px; /* Space between text and arrow */
+    gap: 5px; 
     text-decoration: none;
     font-weight: 600;
     color: rgb(22, 21, 21);
@@ -58,11 +58,11 @@
 }
 
 .shop-now:hover {
-    transform: translateX(5px); /* Moves the text slightly on hover */
+    transform: translateX(5px); 
 }
 
 .shop-now:hover .arrow {
-    transform: translateX(3px); /* Moves the arrow slightly on hover */
+    transform: translateX(3px); 
 }
 
 @media (max-width: 1024px) {
@@ -77,12 +77,12 @@
 
     .pushkar img {
         width: 100%;
-        /* Limit the width of the images */
+        
     }
 
     .pushkar h2, .pushkar p {
         text-align: left;
-        padding: 0 0px; /* Add padding for better spacing */
+        padding: 0 0px; 
     }
     .pushkar h2{
         font-size: 1rem;
@@ -96,7 +96,7 @@
     }
 
     .harsh, .shlok, .kushagra {
-        width:30%; /* Adjust the flex-basis to control the width of each item */
+        width:30%; 
         display: flex;
         flex-direction: column;
         align-items: left;

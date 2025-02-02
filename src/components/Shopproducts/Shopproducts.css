@@ -81,7 +81,7 @@
       width:45%
     }
   }
-  /* Responsive Design */
+  
   @media (max-width: 768px) {
     .cheese {
       width: 45%;

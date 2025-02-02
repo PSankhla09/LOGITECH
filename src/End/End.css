@@ -4,8 +4,8 @@
     box-sizing: border-box;
     background-color: rgb(44, 41, 41);
     padding: 2% 8%;
-    position: relative; /* Keeps it in the document flow */
-    margin-top: -25%; /* Adjust this value to shift the element up */
+    position: relative; 
+    margin-top: -25%; 
     
 }
 
@@ -122,13 +122,13 @@
 
 @media (max-width: 1440px) {
     .zara {
-        margin-top: -27.5%; /* Shift up more on smaller screens */
+        margin-top: -27.5%; 
     }
 }
 
 @media (max-width: 1024px) {
     .zara {
-        margin-top: -60%; /* Adjust this for very small screens */
+        margin-top: -60%; 
     }
 }
 @media (max-width:960px) {

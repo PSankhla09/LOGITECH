@@ -1,4 +1,4 @@
-/* Banner Container */
+
 .Banner {
     display: block;
     position: relative;
@@ -7,7 +7,7 @@
     height: 500px;
 }
 
-/* Navbar/Menu */
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,6 @@
 }
 
 
-/* Hamburger Menu */
 .hamburger-menu {
     display: none;
     cursor: pointer;
@@ -37,10 +36,10 @@
 .hamburger-icon {
     color: white;
 }
-/* Shifted state when menu is open */
 
 
-/* Navigation Buttons */
+
+
 .nav-item {
     position: relative;
 }
@@ -64,7 +63,7 @@
     background-color: white;
 }
 
-/* Dropdown Menu */
+
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -102,12 +101,12 @@
   border-radius: 5px;
 }
 
-/* Show dropdown on hover */
+
 .nav-item:hover .dropdown-menu {
     display: block;
 }
 
-/* Account Container */
+
 .account-container {
     display: flex;
     align-items: center;
@@ -125,7 +124,7 @@
     color: #00aaff;
 }
 
-/* Banner Section */
+
 .banner {
     background-size: cover;
     background-position: center;
@@ -134,7 +133,7 @@
     color: white;
 }
 
-/* Banner Text Container */
+
 .banner .container {
     position: absolute;
     top: 50%;
@@ -149,7 +148,7 @@
     margin-left:17%;
 }
 
-/* Heading */
+
 .banner h2 {
     font-family: 'LL Brown', 'Inter', sans-serif;
     font-size: 3.5rem;
@@ -159,7 +158,7 @@
     margin-bottom: 1rem;
 }
 
-/* Paragraph */
+
 .banner p {
     font-size: 1.2rem;
     line-height: 1.4;
@@ -167,7 +166,7 @@
     font-weight: 400;
 }
 
-/* Call-to-Action Buttons */
+
 .cta-buttons {
     display: flex;
     justify-content: left;
@@ -192,7 +191,7 @@
     color: white;
 }
 
-/* Search */
+
 .search-container {
     display: flex;
     align-items: center;
@@ -230,7 +229,7 @@
     color: #2d3031;
 }
 
-/* Logo */
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -244,7 +243,7 @@
     opacity: 0;
     filter: brightness(0.5) invert(1);
     animation: fadeScale 0.5s ease-out forwards;
-    transition: transform 0.5s ease-in-out, box-shadow 1s ease-in-out; /* Ensure smooth transition for hover effects */
+    transition: transform 0.5s ease-in-out, box-shadow 1s ease-in-out; 
 }
 
 .logo-container img:hover {
@@ -288,7 +287,7 @@
     }
 }
 
-/* Media Queries */
+
 @media (max-width: 1024px) {
     .Ribbon {
         display: none;
@@ -331,7 +330,7 @@
     }
 
     .options {
-        display: none; /* Initially hidden */
+        display: none; 
         flex-direction: column;
         gap: 1.15%;
         width: 100%;
@@ -348,12 +347,12 @@
     }
     
     .options.open {
-        display: flex; /* Show when the hamburger menu is clicked */
+        display: flex; 
         justify-content: space-between;
         align-items: flex-start;
         color: black;
         background-color: white;
-          /* Ensure options background is white */
+       
     }
     .Banner.shifted .banner,.container{
         transform: translateX(50%);
@@ -363,11 +362,11 @@
         overflow: hidden;
     }
     .hamburger-menu {
-    display: flex; /* Ensure the hamburger menu is displayed */
+    display: flex; 
     align-items: center;
         
     position: absolute;
-    left: 2%; /* Align to left */
+    left: 2%; 
     font-size: 2rem;
     cursor: pointer;
     color: black;
@@ -379,9 +378,9 @@
         
     }
     .menu.open .hamburger-menu {
-        left: 50%; /* Remove left alignment */
-        right: 5%; /* Adjust right position */
-        color: white; /* Change color if needed */
+        left: 50%; 
+        right: 5%; 
+        color: white; 
     }
     
     .logo-container {
@@ -419,13 +418,13 @@
         display: none;
     }
 
-    /* Position the options in the available space */
+    
     .options.open {
         display: flex;
         position: fixed;
         justify-content: flex-start;
         top: 0;
-        left: 0%; /* Positioned in the available space */
+        left: 0%;
         height: 100%;
         width: 50%;
 
@@ -444,7 +443,7 @@
     }
     
 
-    /* Banner content positioning */
+    
     .banner-content {
         position: absolute;
         top: -400%;

@@ -35,7 +35,7 @@ const End = () => {
             </div>
         </div>
 
-        {/* Social Media Icons BELOW handm */}
+        
         <div className="social-icons">
             <a href="https://www.facebook.com/logitech" target="_blank" rel="noopener noreferrer">
                 <FaFacebookF />
