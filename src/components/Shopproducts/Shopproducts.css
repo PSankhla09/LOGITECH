@@ -1,0 +1,99 @@
+.cornitos {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-top: 3%;
+  }
+  
+  .puffs {
+    font-size: 1.7em;
+    color: #171717;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    font-weight: bold;
+  }
+  
+  .crusties {
+    display: flex;
+    flex-wrap: wrap;
+    width: 87.5%;
+    justify-content: center;
+  }
+  
+  .cheese {
+    position: relative;
+    margin: 1%;
+    width: 30%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cheese img {
+    max-width: auto;
+    max-height:auto;
+    object-fit: cover;
+  }
+  
+ .cheese .large-image{
+    max-width:100%;
+    max-height: 100%;
+    object-fit: cover;
+ }
+ .cheese .small-image{
+    max-width:100%;
+    max-height: 30%;
+    object-fit: cover;
+ }
+  .cheese img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  .cheese p{
+    top:5%;
+    position: relative;
+    margin: 0 0 0 0;
+    font-size: 1em;
+    color: #171717;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+  }
+  @media (max-width:1024px) {
+    .cheese:last-child{
+      display:none;
+    }
+    .crusties{
+      width:100%;
+    }
+    .cornitos{
+      width:100%;
+    }
+    .cheese{
+      width:45%
+    }
+  }
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .cheese {
+      width: 45%;
+    }
+    .cheese:last-child{
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cheese {
+      width: 100%;
+    }
+  }
+  

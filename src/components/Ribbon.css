@@ -1,0 +1,74 @@
+.Ribbon {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    max-width: 90%;
+    height: 48px;
+    padding: 0 40px;
+    align-items: center;
+    justify-items: space-between;
+  }
+  
+  .logo1 {
+    margin-left: 160px;
+    align-items: center;
+    display: flex;
+    height: 6px;
+    justify-content: center;
+    max-width: 100px;
+    padding: 11px;
+    border-right: #697172 solid 1px;
+    position: relative; 
+  }
+  
+  .grey-logo {
+    display: block;
+    transition: opacity 0.3s ease;
+  }
+  
+  .hover-logo {
+    position:absolute;
+    
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .logo1:hover .grey-logo {
+    opacity: 0;
+  }
+  
+  .logo1:hover .hover-logo {
+    opacity: 1; 
+  }
+  
+  .ourbrands {
+    margin-left: 1rem;
+    padding: 11px 0;
+    text-align: left;
+    color: #697172;
+    font-size: 14px;
+    height: 100%;
+    line-height: 1;
+  }
+  .country {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;  
+  }
+  
+  .country img {
+    margin-right: 8px;
+  }
+  
+  .country a {
+    text-decoration: none;
+  }
+  
+  .country p {
+    margin: 0;
+    color: #697172;
+    font-size: 14px;
+    font-weight:500;
+  }

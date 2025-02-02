@@ -1,0 +1,491 @@
+/* Banner Container */
+.Banner {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+}
+
+/* Navbar/Menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    top: 25px;
+    left: 0;
+    z-index: 10;
+}
+
+.options {
+    margin-left: 23.5%;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: black;
+}
+
+.hamburger-icon {
+    color: white;
+}
+/* Shifted state when menu is open */
+
+
+/* Navigation Buttons */
+.nav-item {
+    position: relative;
+}
+
+.nav-btn {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    color: black;
+    transform: scale(1.03);
+    border-radius: 30%;
+    background-color: white;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  padding: 10px 0;
+  display: none;
+  flex-direction: column;
+}
+
+.dropdown-menu a {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: background 0.3s ease-in-out;
+    height: 50px;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-image {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* Show dropdown on hover */
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+/* Account Container */
+.account-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-icon {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.account-icon:hover {
+    color: #00aaff;
+}
+
+/* Banner Section */
+.banner {
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    position: relative;
+    color: white;
+}
+
+/* Banner Text Container */
+.banner .container {
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: left;
+    max-width: 50%;
+    z-index: 5;
+}
+.banner-content{
+    margin-left:17%;
+}
+
+/* Heading */
+.banner h2 {
+    font-family: 'LL Brown', 'Inter', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph */
+.banner p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+/* Call-to-Action Buttons */
+.cta-buttons {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    
+}
+
+.cta-btn {
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    border: solid white 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/* Search */
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 150px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    background-color: transparent;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-input:focus {
+    border-color: #00aaff;
+    box-shadow: 0 0 5px rgba(0, 170, 255, 0.5);
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.search-icon:hover {
+    color: #2d3031;
+}
+
+/* Logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 12%;
+    
+    
+}
+.logo {
+    width: 120px;
+    height: 40px;
+    opacity: 0;
+    filter: brightness(0.5) invert(1);
+    animation: fadeScale 0.5s ease-out forwards;
+    transition: transform 0.5s ease-in-out, box-shadow 1s ease-in-out; /* Ensure smooth transition for hover effects */
+}
+
+.logo-container img:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    transform: translateY(-10px);
+    animation: pulseGlow 1s ease-in-out infinite, bounce 0.5s ease-in-out;
+}
+.search-container1{
+    display:none;
+}
+
+@keyframes fadeScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes pulseGlow {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .Ribbon {
+        display: none;
+    }
+    .search-container1{
+        display: block;
+        position: relative;
+        transform: translateX(45%);
+        
+    }
+    .search-icon1{
+        position: relative;
+        padding: 2% 2%;
+        font-size: 1.5rem;
+        
+        background-color: transparent;
+    
+        color: white;
+        outline: none;
+        transition: all 0.3s ease-in-out;
+    }
+    .search-icon1:hover {
+        color: #2d3031;
+    }
+    .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 7%;
+    left: 0;
+    z-index: 10;
+    }
+    .menu.open .logo-container {
+        transform: translateX(90%);
+    }
+    .cta-buttons{
+        justify-content: center;
+    }
+
+    .options {
+        display: none; /* Initially hidden */
+        flex-direction: column;
+        gap: 1.15%;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        color: black;
+        top: 60px;
+        left: 0;
+        transform: translateX(-47%);
+        padding: 0px 0px;
+        height: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 100;
+    }
+    
+    .options.open {
+        display: flex; /* Show when the hamburger menu is clicked */
+        justify-content: space-between;
+        align-items: flex-start;
+        color: black;
+        background-color: white;
+          /* Ensure options background is white */
+    }
+    .Banner.shifted .banner,.container{
+        transform: translateX(50%);
+        
+    }
+    .Banner.shifted{
+        overflow: hidden;
+    }
+    .hamburger-menu {
+    display: flex; /* Ensure the hamburger menu is displayed */
+    align-items: center;
+        
+    position: absolute;
+    left: 2%; /* Align to left */
+    font-size: 2rem;
+    cursor: pointer;
+    color: black;
+    z-index: 1001;
+    }
+    .hamburger-icon {
+        color: white;
+        font-size: 2rem;
+        
+    }
+    .menu.open .hamburger-menu {
+        left: 50%; /* Remove left alignment */
+        right: 5%; /* Adjust right position */
+        color: white; /* Change color if needed */
+    }
+    
+    .logo-container {
+        position: absolute;
+        left: 42.5%;
+        transform: translateX(-85%);
+    }
+
+
+
+    .nav-item {
+        position:relative;
+    }
+
+    .nav-btn {
+        font-size: 0.9rem;
+        padding: 7% 0;
+        color:black;
+        font-weight: 700;
+        margin:0;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .nav-btn:hover{
+        background-color: lightgray;
+    }
+
+    .search-container {
+        display: none;
+    }
+    
+
+
+    .account-container {
+        display: none;
+    }
+
+    /* Position the options in the available space */
+    .options.open {
+        display: flex;
+        position: fixed;
+        justify-content: flex-start;
+        top: 0;
+        left: 0%; /* Positioned in the available space */
+        height: 100%;
+        width: 50%;
+
+        background-color: white;
+        box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .options.open .nav-item {
+        background-color: lightgrey;
+        width:98%;
+        text-align: left;
+        border-bottom: 1px solid rgb(159, 156, 156);
+        margin-bottom:-2%;
+        padding-left: 2%;
+    }
+    
+
+    /* Banner content positioning */
+    .banner-content {
+        position: absolute;
+        top: -400%;
+        width: 1024px;
+        left: -700%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .banner h2 {
+        font-size: 2.75rem;
+    }
+
+    .banner p {
+        font-size: 1.25rem;
+        width: 50%;
+        margin: 3% 25%;
+    }
+    .nav-item:hover .dropdown-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    .banner {
+        background-image: url('https://resource.logitech.com/w_420,h_1024,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/homepage/mx-brio-hpb-mobile.jpg?v=1');
+        background-size: contain;
+    }
+    .banner-content{
+        text-align: center;
+        flex-wrap: wrap;
+        transform: translateX(-8%);
+    }
+    .banner h2 {
+        font-size: 2rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+        width: 40%;
+        margin: 3% 30%;
+    }
+
+}

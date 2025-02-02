@@ -1,0 +1,155 @@
+/* Shop Series Section Styling */
+.shopseries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5; /* Add your desired background color */
+    padding: 0%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-top: 3%;
+  }
+  
+  .rishith h1 {
+    font-size: 2.3em;
+    color: #171717;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 7%;
+    font-weight: bold;
+  }
+  
+  /* Image Container Styling */
+  .naman {
+    display: flex;
+    flex-wrap: wrap;
+    width: 87.5%;
+    justify-content: center;
+  }
+  
+  /* Individual Image Styling */
+  .reddy {
+    position: relative;
+    margin: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  
+  .reddy:last-child {
+    width: 61.5%;
+  }
+  
+  .reddy img {
+    width: 100%;
+    height: 100%;
+    transition: none; /* No transition effect on image */
+  }
+  
+  /* Text Styling */
+  .reddy h4, .reddy p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    margin: 0;
+    transition: top 0.3s ease; /* Smooth top transition */
+  }
+  
+  .reddy h4 {
+    top: 45%; /* Adjusted top property to create gap */
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    opacity: 1;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .reddy p {
+    bottom: 15px; /* Adjusted bottom property to create gap */
+    font-size: 14px;
+    display: none;
+    transform: translate(-50%, -150%);
+  }
+  
+  /* Hover Effects */
+  .reddy:hover h4 {
+    top: 35%;
+  }
+  
+  .reddy:hover p {
+    display: block;
+  }
+  
+  .reddy::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.745);
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Smooth opacity transition */
+  }
+  
+  .reddy:hover::before {
+    opacity: 1;
+  }
+  @media (max-width:1440px) {
+    .reddy p{
+      transform:translate(-50%,-40%);
+    }
+  }
+  @media (max-width:1024px) {
+    .reddy p{
+      width:100%;
+      transform: translate(-50%,-550%);
+    }
+    .naman{
+      display: block;
+      margin-left: -3%;
+      width:90%;
+      
+    }
+    .reddy:nth-child(1){
+      width:100%;
+      height:auto;
+    }
+    
+    .reddy:nth-child(5){
+      width:100%;
+      height:40%;
+    }
+    .reddy:nth-child(2){
+      display:none;
+    }
+    .reddy:nth-child(3){
+      display:none;
+    }
+    .reddy:nth-child(4){
+      display:none;
+    }
+  }
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .reddy {
+      width: 45%;
+    }
+
+    .reddy p{
+      transform: translate(-50%,-150%);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .reddy {
+      width: 100%;
+    }
+    .reddy p{
+      transform: translate(-50%,-350%);
+    }
+    
+  }
+  
