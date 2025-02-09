@@ -35,15 +35,19 @@ const Banner = () => {
 
   useEffect(() => {
     if (isMobileMenuOpen) {
-      document.body.classList.add("no-scroll");
+      document.body.classList.add("no-scroll1");
+      document.body.style.overflow = "hidden"; // Disable scroll
     } else {
-      document.body.classList.remove("no-scroll");
+      document.body.classList.remove("no-scroll1");
+      document.body.style.overflow = ""; // Re-enable scroll
     }
-
+  
     return () => {
-      document.body.classList.remove("no-scroll");
+      document.body.classList.remove("no-scroll1");
+      document.body.style.overflow = ""; // Make sure to clean up in case the component unmounts
     };
   }, [isMobileMenuOpen]);
+  
 
   const toggleMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);

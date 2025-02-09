@@ -293,7 +293,7 @@
 .search-container1{
     display:none;
 }
-.no-scroll {
+.no-scroll,.no-scroll1 {
     overflow: hidden;
     height: 100vh;
   }
