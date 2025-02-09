@@ -45,11 +45,13 @@
   .ayush{
     width:100%;
     height:100%;
+    
   }
   
   .ayush img{
-    width: 100%;
-    height: auto;
+    max-width: 92%;
+    height: 200px;
+    
     background-color: lightgrey;
   }
   .ayush p{
@@ -62,6 +64,41 @@ html, body {
   width: 100%;
   margin: 0; 
 }
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-70%);
+  width: 50px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  background: white; /* Background color */
+  border-radius: 50%; /* Make it circular */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.next-arrow {
+  right: -5%; /* Move it further outside */
+}
+
+.prev-arrow {
+  left: -5%; /* Move it further outside */
+}
+.slick-slider {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.slick-list {
+  overflow: hidden !important; /* Ensure arrows are clickable */
+  padding: 0 5%;
+}
+
+
 
 @media(max-width: 1024px) {
   .prod {
@@ -79,7 +116,7 @@ html, body {
   }
   .ayush img {
     width: 100%;
-    height: auto;
+    height: 200px;
     object-fit: cover; 
   }
   .ayush:nth-child(3) {
@@ -95,6 +132,20 @@ html, body {
   }
   .ayush:nth-child(5){
     display:none;
+  }
+  .prod {
+    width: 80%; 
+    margin-left: 10%; 
+    padding: 0; 
+  }
+  .products {
+    width: 100%;
+    padding: 0; 
+  }
+  .ayush img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
   }
  .title{
   width:100%;

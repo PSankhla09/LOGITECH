@@ -5,7 +5,7 @@
     background-color: rgb(44, 41, 41);
     padding: 2% 8%;
     position: relative; 
-    margin-top: -25%; 
+    margin-top: 0%; 
     
 }
 
@@ -120,25 +120,5 @@
     text-align: left;
 }
 
-@media (max-width: 1440px) {
-    .zara {
-        margin-top: -27.5%; 
-    }
-}
 
-@media (max-width: 1024px) {
-    .zara {
-        margin-top: -60%; 
-    }
-}
-@media (max-width:960px) {
-    .zara{
-        margin-top:-70%;
-    }
-}
 
-@media (max-width:720px) {
-    .zara{
-        margin-top:-80%;
-    }
-}

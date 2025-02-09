@@ -1,76 +1,130 @@
+/* Banner Container */
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.banner-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Background Image */
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Centered Text Content */
 .ishaan {
-    position: relative;
-    display: inline-block;
-    
-    transform: translate(15%,-175%);
-    text-align: center;
-    color: black;
-    
-    padding: -10% 1%;
-    
-  }
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 80%;
+ 
+}
+
+/* Text Styling */
+.ishaan h1 {
+  font-size: 3.5rem;
+  font-weight: 650;
+  width:60%;
+  transform: translateX(30%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+}
+.ishaan button {
+  padding: 2% 4%;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 200;
+ 
+}
+.ishaan p {
+  font-size: 1.5rem;
+  max-width: 50%;
+  transform: translateX(50%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Navigation Arrows */
+.carousel-arrows1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.carousel-arrow1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.carousel-arrow1:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Dots Navigation */
+.carousel-dots1 {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(186, 184, 184, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot:hover {
+  background-color: rgba(239, 229, 229, 0.8);
+}
+
+.dot.active {
+  background-color: rgb(247, 245, 245);
+}
+
+/* Responsive Design */
+@media (max-width: 1440px) {
   .ishaan h1 {
-    font-size: 3.5rem;
-    font-weight: 650;
-    width:70%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:rgb(49, 46, 46);
-    text-transform: uppercase;
-    margin-bottom: 1%;
+    font-size: 2.5rem;
   }
-  
   .ishaan p {
-    font-size: 1.5rem;
-    max-width: 50%;
-    
-    transform: translateX(20%);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
   }
-  .ishaan button{
-    transform:translate(-65%,80%);
-    padding: 2% 4%;
-    font-size: 1.1rem;
-    border: solid rgb(49, 46, 46) 2px;
-    text-transform: uppercase;
-    font-weight: 500;
-    text-decoration: none;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(49, 46, 46);
-    transition: background 0.3s ease, color 0.3s ease;
-  }
-  .ishaan button:hover{
-    background-color: transparent;
-    color: rgb(49, 46, 46);
-  }
-  @media (max-width:1440px) {
-    .ishaan h1{
-      font-size: 2.5rem;
-    }
-    .ishaan p{
-      font-size: 1.30rem;
-      max-width:60%;
-      transform: translateX(10%);
-    }
-    .ishaan button{
-      transform: translateX(-50%);
-    }
-  }
-  @media (max-width:1024px) {
-   .ishaan{
+}
+
+@media (max-width: 1024px) {
+  .ishaan {
     max-width: 100%;
     padding: 20% 1%;
-    
-   }
-    .ishaan h1{
-    font-size: 2rem;
-     width: auto;
-     transform:translateX(-15%);
-     
-    }
-    .ishaan p{
-      font-size: 1.35rem;
-     width: auto;
-    }
   }
+  .ishaan h1 {
+    font-size: 2rem;
+  }
+  .ishaan p {
+    font-size: 1.35rem;
+  }
+}

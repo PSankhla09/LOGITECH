@@ -1,99 +1,170 @@
 .cornitos {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2%;
-    padding-bottom: 5%;
-    margin-top: 3%;
-  }
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2%;
+ 
+  margin-top: 3%;
+}
+
+.puffs {
+  font-size: 1.7em;
+  color: #171717;
+  text-align: center;
   
-  .puffs {
-    font-size: 1.7em;
-    color: #171717;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 1%;
-    font-weight: bold;
-  }
+  text-transform: uppercase;
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 85%;
+  position: relative;
   
-  .crusties {
-    display: flex;
-    flex-wrap: wrap;
-    width: 87.5%;
-    justify-content: center;
+ /* Adjust the margin to give space for the dots */
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slide {
+  width: 100%;
+  display: none; /* Hide all slides initially */
+  justify-content: center;
+}
+
+.slide.active {
+  display: flex; /* Only display the active slide */
+}
+
+.product-group1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom:0% ;
+}
+.product-group{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom:9.5% ;
+}
+
+.cheese {
+  position: relative;
+  margin: 1%;
+  width: 30%;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cheese img {
+  max-width: auto;
+  max-height: auto;
+  object-fit: cover;
+}
+
+.cheese .large-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.cheese .small-image {
+  max-width: 100%;
+  max-height: 30%;
+  object-fit: cover;
+}
+
+.cheese img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.cheese p {
+  top: 5%;
+  position: relative;
+  margin: 0;
+  font-size: 1em;
+  color: #171717;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 10px; /* Position the dots at the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Offset by half the width to center */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  background-color: #000000;
+}
+
+@media (max-width: 1024px) {
+  .cheese:last-child {
+    display: none;
   }
-  
+
+  .product-group {
+    width: 100%;
+    padding-bottom: 15%;
+  }
+  .product-group1{
+    width:100%;
+  }
+  .cornitos {
+    width: 100%;
+  }
   .cheese {
-    position: relative;
-    margin: 1%;
-    width: 30%;
-    box-sizing: border-box;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    width: 45%;
   }
-  
-  .cheese img {
-    max-width: auto;
-    max-height:auto;
-    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .cheese {
+    width: 45%;
   }
-  
- .cheese .large-image{
-    max-width:100%;
-    max-height: 100%;
-    object-fit: cover;
- }
- .cheese .small-image{
-    max-width:100%;
-    max-height: 30%;
-    object-fit: cover;
- }
-  .cheese img:hover{
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
+  .cheese:last-child {
+    display: none;
   }
-  
-  
-  .cheese p{
-    top:5%;
-    position: relative;
-    margin: 0 0 0 0;
-    font-size: 1em;
-    color: #171717;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 600;
+  .product-group {
+    width: 100%;
+    padding-bottom: 15%;
+  }
+  .product-group1{
+    width:100%;
     
   }
-  @media (max-width:1024px) {
-    .cheese:last-child{
-      display:none;
-    }
-    .crusties{
-      width:100%;
-    }
-    .cornitos{
-      width:100%;
-    }
-    .cheese{
-      width:45%
-    }
+
+}
+
+@media (max-width: 480px) {
+  .cheese {
+    width: 100%;
   }
-  
-  @media (max-width: 768px) {
-    .cheese {
-      width: 45%;
-    }
-    .cheese:last-child{
-      display: none;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .cheese {
-      width: 100%;
-    }
-  }
-  
+
+}
