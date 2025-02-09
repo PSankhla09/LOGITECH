@@ -1,8 +1,15 @@
 {
   "files": {
-    "main.css": "/LOGITECH/static/css/main.76829eba.css",
-    "main.js": "/LOGITECH/static/js/main.8235535e.js",
+    "main.css": "/LOGITECH/static/css/main.a8f320be.css",
+    "main.js": "/LOGITECH/static/js/main.23dedb5b.js",
+    "static/media/future-positive-challenge-desktop.jpg": "/LOGITECH/static/media/future-positive-challenge-desktop.36a4315c624d62edd274.jpg",
+    "static/media/future-positive-challenge-tablet.jpg": "/LOGITECH/static/media/future-positive-challenge-tablet.959fdab6cab081de0a52.jpg",
+    "static/media/pcr-plastic-desktop.png": "/LOGITECH/static/media/pcr-plastic-desktop.8ef0a489a6a427f106f6.png",
+    "static/media/bg-logicares-desktop.jpg": "/LOGITECH/static/media/bg-logicares-desktop.1ab215aab148c2f2bbb2.jpg",
+    "static/media/pcr-plastic-tablet.png": "/LOGITECH/static/media/pcr-plastic-tablet.2a01644adb23b61dcc8e.png",
     "static/media/dfs-corporate-banner-desktop.jpg": "/LOGITECH/static/media/dfs-corporate-banner-desktop.62d71ee9c443d57b6bfd.jpg",
+    "static/media/bg-logicares-tablet.jpg": "/LOGITECH/static/media/bg-logicares-tablet.ef75c3ad82b8c2c89a03.jpg",
+    "static/media/bluetooth-speakers-vertical-gallery-desktop-2-h.webp": "/LOGITECH/static/media/bluetooth-speakers-vertical-gallery-desktop-2-h.37ee7a45c3f841f9dcba.webp",
     "static/media/dfs-corporate-banner-tablet.jpg": "/LOGITECH/static/media/dfs-corporate-banner-tablet.00af132bf37a239b4199.jpg",
     "static/media/on-the-go-horizontal-gallery-desktop-e.webp": "/LOGITECH/static/media/on-the-go-horizontal-gallery-desktop-e.aa3a90095e662e825b73.webp",
     "static/media/keys-to-go-2-graphite-gallery-1.png": "/LOGITECH/static/media/keys-to-go-2-graphite-gallery-1.54e5a5b23ec866b8ecef.png",
@@ -13,11 +20,15 @@
     "static/media/Logitech_logo.svg.png": "/LOGITECH/static/media/Logitech_logo.svg.5973d1eb3dc6b426a558.png",
     "static/media/keyboards-vertical-gallery-tablet-2-c.webp": "/LOGITECH/static/media/keyboards-vertical-gallery-tablet-2-c.f6a6361c22655b2a943e.webp",
     "static/media/dfs-corporate-banner-mobile.jpg": "/LOGITECH/static/media/dfs-corporate-banner-mobile.d389910024ba227514f5.jpg",
+    "static/media/support-for-individuals.webp": "/LOGITECH/static/media/support-for-individuals.8a9c72598149d4603385.webp",
     "static/media/pop-icon-hpb-secondary.webp": "/LOGITECH/static/media/pop-icon-hpb-secondary.f477058ab8a70bb49e1b.webp",
     "static/media/ergo-series-horizontal-gallery-desktop-a.webp": "/LOGITECH/static/media/ergo-series-horizontal-gallery-desktop-a.eb2635f20c3f661d5434.webp",
     "static/media/combo-vertical-gallery-tablet-2-d.webp": "/LOGITECH/static/media/combo-vertical-gallery-tablet-2-d.9c5157199152e160e50a.webp",
     "static/media/mx-for-creatives-horizontal-gallery-desktop-f.webp": "/LOGITECH/static/media/mx-for-creatives-horizontal-gallery-desktop-f.b0b79c662cc257f0cea6.webp",
     "static/media/combo-touch-ipad-air-12.9-inch-hpb-desktop1.webp": "/LOGITECH/static/media/combo-touch-ipad-air-12.9-inch-hpb-desktop1.0278a862251dd1f3f64d.webp",
+    "static/media/gaming-vertical-gallery-desktop-2-l.webp": "/LOGITECH/static/media/gaming-vertical-gallery-desktop-2-l.12124c252c27d1c045b2.webp",
+    "static/media/education-vertical-gallery-desktop-2-i.webp": "/LOGITECH/static/media/education-vertical-gallery-desktop-2-i.8524b8b5f73fc41f969f.webp",
+    "static/media/support-for-business-education.webp": "/LOGITECH/static/media/support-for-business-education.1940f4b1c68e703e3af4.webp",
     "static/media/webcams-vertical-gallery-tablet-2-f.webp": "/LOGITECH/static/media/webcams-vertical-gallery-tablet-2-f.c9d55445c4c155218acd.webp",
     "static/media/us-int-combo-touch-ipad-air-11-inch-gallery1.webp": "/LOGITECH/static/media/us-int-combo-touch-ipad-air-11-inch-gallery1.ee452e7054e3d32049c3.webp",
     "static/media/lift-gallery-rose-2.webp": "/LOGITECH/static/media/lift-gallery-rose-2.3e86df85c72a2997e714.webp",
@@ -25,16 +36,24 @@
     "static/media/mx-brio-3qtr-front-right-graphite-gallery.webp": "/LOGITECH/static/media/mx-brio-3qtr-front-right-graphite-gallery.43ae177a4be343a3c0f3.webp",
     "static/media/mice-vertical-gallery-tablet-2-a.webp": "/LOGITECH/static/media/mice-vertical-gallery-tablet-2-a.d2e29a000e42c6298ea5.webp",
     "static/media/mx-master-3s-mouse-back-view-graphite.webp": "/LOGITECH/static/media/mx-master-3s-mouse-back-view-graphite.6133c843178424deda7b.webp",
+    "static/media/business-horizontal-gallery-desktop-2-j.webp": "/LOGITECH/static/media/business-horizontal-gallery-desktop-2-j.8dba1d72253a1d7abd4c.webp",
+    "static/media/discover-feature-sustainability.webp": "/LOGITECH/static/media/discover-feature-sustainability.86f2e442891c1809f4ad.webp",
+    "static/media/digital-pens-horizontal-gallery-desktop-2-k.webp": "/LOGITECH/static/media/digital-pens-horizontal-gallery-desktop-2-k.30068cdc98dc5f5cdcf7.webp",
     "static/media/logitechg-grey.svg": "/LOGITECH/static/media/logitechg-grey.abe8e786763f0d345b9b661ef5787f39.svg",
     "static/media/logitechg.svg": "/LOGITECH/static/media/logitechg.369dfcf5e16ad7d1d1d1d0387b38c106.svg",
-    "static/media/shop-mice.webp": "/LOGITECH/static/media/shop-mice.d3e7bf1ded77434adb16.webp",
+    "static/media/business-partners.webp": "/LOGITECH/static/media/business-partners.15395bdd2cf19c925764.webp",
+    "static/media/presenters-horizontal-gallery-desktop-2-g.webp": "/LOGITECH/static/media/presenters-horizontal-gallery-desktop-2-g.f2acd8731f91bb8e6f64.webp",
+    "static/media/slick.svg": "/LOGITECH/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/LOGITECH/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/LOGITECH/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/LOGITECH/static/media/slick.295183786cd8a1389865.woff",
     "static/media/earth-americas-solid.svg": "/LOGITECH/static/media/earth-americas-solid.012bfc39d44c500e0bd5e712286bb104.svg",
     "index.html": "/LOGITECH/index.html",
-    "main.76829eba.css.map": "/LOGITECH/static/css/main.76829eba.css.map",
-    "main.8235535e.js.map": "/LOGITECH/static/js/main.8235535e.js.map"
+    "main.a8f320be.css.map": "/LOGITECH/static/css/main.a8f320be.css.map",
+    "main.23dedb5b.js.map": "/LOGITECH/static/js/main.23dedb5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.76829eba.css",
-    "static/js/main.8235535e.js"
+    "static/css/main.a8f320be.css",
+    "static/js/main.23dedb5b.js"
   ]
 }
