@@ -3,7 +3,7 @@ import "./Banner.css";
 import { FaSearch, FaUser, FaBars, FaTimes } from "react-icons/fa";
 import logoBanner from "./Logitech_logo.svg.png";
 import { dropdownItems } from "./dropdown";
-import Dropdown from "./dropdown"; // Import the Dropdown component
+import Dropdown from "./dropdown"; 
 
 const Banner = () => {
   const [imageSrc, setImageSrc] = useState("");
@@ -62,10 +62,10 @@ const Banner = () => {
   
   return (
     <div className={`Banner ${isMobileMenuOpen ? "shifted" : ""}`}>
-      {/* Overlay when menu is open */}
+     
       {isMobileMenuOpen && <div className="overlay" onClick={toggleMenu}></div>}
 
-      {/* Navbar */}
+      
       <div className={`menu ${isMobileMenuOpen ? "open" : ""}`}>
         <div className="hamburger-menu" onClick={toggleMenu}>
           {isMobileMenuOpen ? (
@@ -78,7 +78,7 @@ const Banner = () => {
           <img src={logoBanner} alt="Logitech Logo" className="logo" />
         </div>
 
-        {/* Navbar Options */}
+        
         <div className={`options ${isMobileMenuOpen ? "open" : ""}`}>
           {Object.keys(dropdownItems).map((menu, index) => (
             <div
@@ -106,7 +106,7 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* Banner Section */}
+      
       <section
         className="banner"
         aria-label="MEET. STREAM. MASTER."

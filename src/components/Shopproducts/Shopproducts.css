@@ -24,7 +24,7 @@
   width: 85%;
   position: relative;
   
- /* Adjust the margin to give space for the dots */
+ 
 }
 
 .carousel-track {
@@ -35,12 +35,12 @@
 
 .slide {
   width: 100%;
-  display: none; /* Hide all slides initially */
+  display: none;
   justify-content: center;
 }
 
 .slide.active {
-  display: flex; /* Only display the active slide */
+  display: flex; 
 }
 
 .product-group1 {
@@ -102,9 +102,9 @@
 
 .carousel-dots {
   position: absolute;
-  bottom: 10px; /* Position the dots at the bottom */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Offset by half the width to center */
+  bottom: 10px; 
+  left: 50%; 
+  transform: translateX(-50%); 
   display: flex;
   justify-content: center;
   margin-top: 20px;

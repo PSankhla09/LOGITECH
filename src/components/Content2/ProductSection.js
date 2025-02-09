@@ -33,16 +33,16 @@ const PrevArrow = ({ onClick }) => (
 
 const ProductSection = () => {
   const [currentSetIndex, setCurrentSetIndex] = useState(0);
-  const [visibleImages, setVisibleImages] = useState(Array(5).fill(false)); // Initially set to false, images not visible
+  const [visibleImages, setVisibleImages] = useState(Array(5).fill(false)); 
   const imageRefs = useRef([]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      // Set images to visible after 3 seconds
+      
       setVisibleImages(Array(5).fill(true));
-    }, 3000); // Delay for 3 seconds
+    }, 3000); 
 
-    // Cleanup the timer when the component is unmounted or updated
+    
     return () => clearTimeout(timer);
   }, [currentSetIndex]);
 
@@ -53,28 +53,28 @@ const ProductSection = () => {
           if (entry.isIntersecting) {
             setVisibleImages((prev) => {
               const newVisibleImages = [...prev];
-              newVisibleImages[index] = true; // Set the image as visible when it enters the viewport
+              newVisibleImages[index] = true; 
               return newVisibleImages;
             });
-            observer.unobserve(entry.target); // Stop observing once the image is in view
+            observer.unobserve(entry.target); 
           }
         });
       },
-      { threshold: 0.5 } // Trigger when 50% of the image is visible
+      { threshold: 0.5 } 
     );
 
     imageRefs.current.forEach((img) => img && observer.observe(img));
-    return () => observer.disconnect(); // Cleanup observer when component is unmounted
+    return () => observer.disconnect(); 
   }, [currentSetIndex]);
 
   const handleNext = () => {
     setCurrentSetIndex((prevIndex) => (prevIndex + 1) % imageSets.length);
-    setVisibleImages(Array(5).fill(false)); // Reset visibility for the next set
+    setVisibleImages(Array(5).fill(false)); 
   };
 
   const handlePrev = () => {
     setCurrentSetIndex((prevIndex) => (prevIndex - 1 + imageSets.length) % imageSets.length);
-    setVisibleImages(Array(5).fill(false)); // Reset visibility for the previous set
+    setVisibleImages(Array(5).fill(false)); 
   };
 
   const settings = {
@@ -101,12 +101,12 @@ const ProductSection = () => {
         <button className="nothing">RECOMMENDED</button>
       </div>
 
-      {/* Added the "prod" class wrapper around the Slider */}
+      
       <div className="prod">
         <Slider {...settings}>
           {imageSets[currentSetIndex].map((item, index) => (
             <div className="ayush" key={index} ref={(el) => (imageRefs.current[index] = el)}>
-              {/* Show Preloader until image is visible */}
+              
               {!visibleImages[index] ? <Preloader /> : <img src={item.src} alt={item.name} />}
               <p>{item.name}</p>
             </div>

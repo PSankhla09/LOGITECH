@@ -68,10 +68,10 @@ html, body {
   position: absolute;
   top: 50%;
   transform: translateY(-70%);
-  width: 50px; /* Adjust width */
-  height: 50px; /* Adjust height */
-  background: white; /* Background color */
-  border-radius: 50%; /* Make it circular */
+  width: 50px; 
+  height: 50px; 
+  background: white; 
+  border-radius: 50%; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
@@ -81,11 +81,11 @@ html, body {
 }
 
 .next-arrow {
-  right: -5%; /* Move it further outside */
+  right: -5%; 
 }
 
 .prev-arrow {
-  left: -5%; /* Move it further outside */
+  left: -5%; 
 }
 .slick-slider {
   position: relative;
@@ -94,7 +94,7 @@ html, body {
 }
 
 .slick-list {
-  overflow: hidden !important; /* Ensure arrows are clickable */
+  overflow: hidden !important; 
   padding: 0 5%;
 }
 

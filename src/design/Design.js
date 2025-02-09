@@ -91,7 +91,7 @@ const Design = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
-  // Determine styles based on slide index
+  
   const textColor = currentIndex === 0 ? "black" : "white";
   const buttonStyle = {
     backgroundColor: currentIndex === 0 ? "rgb(49, 46, 46)" : "white",
@@ -106,7 +106,7 @@ const Design = () => {
       <div className="banner-wrapper">
         <img src={imageSrc} alt="Sustainability Banner" className="banner-image" />
 
-        {/* Ishaan Content with Dynamic Text and Button Styles */}
+       
         <div className="ishaan" style={{ color: textColor }}>
           <h1 style={{ color: textColor }}>{images[currentIndex].content.title}</h1>
           <p style={{ color: textColor }}>{images[currentIndex].content.text}</p>
@@ -129,7 +129,7 @@ const Design = () => {
           </a>
         </div>
 
-        {/* Carousel Arrows */}
+       
         <div className="carousel-arrows1">
           <button className="carousel-arrow1 left" onClick={prevBanner1}>
             &#8249;
@@ -139,7 +139,7 @@ const Design = () => {
           </button>
         </div>
 
-        {/* Carousel Dots */}
+        
         <div className="carousel-dots1">
           {images.map((_, index) => (
             <span

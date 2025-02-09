@@ -14,7 +14,7 @@ import Product11 from './business-horizontal-gallery-desktop-2-j.webp';
 import Product12 from './gaming-vertical-gallery-desktop-2-l.webp';
 
 const Shopproducts = () => {
-  const [currentSlide, setCurrentSlide] = useState(0); // Set initial state to 0
+  const [currentSlide, setCurrentSlide] = useState(0); 
   const totalSlides = 2;
 
   const handleDotClick = (index) => {
