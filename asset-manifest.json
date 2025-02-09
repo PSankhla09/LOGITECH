@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LOGITECH/static/css/main.ffb0a0cc.css",
-    "main.js": "/LOGITECH/static/js/main.23dedb5b.js",
+    "main.css": "/LOGITECH/static/css/main.6d9e96f2.css",
+    "main.js": "/LOGITECH/static/js/main.b5d4add4.js",
     "static/media/future-positive-challenge-desktop.jpg": "/LOGITECH/static/media/future-positive-challenge-desktop.36a4315c624d62edd274.jpg",
     "static/media/future-positive-challenge-tablet.jpg": "/LOGITECH/static/media/future-positive-challenge-tablet.959fdab6cab081de0a52.jpg",
     "static/media/pcr-plastic-desktop.png": "/LOGITECH/static/media/pcr-plastic-desktop.8ef0a489a6a427f106f6.png",
@@ -49,11 +49,11 @@
     "static/media/slick.woff": "/LOGITECH/static/media/slick.295183786cd8a1389865.woff",
     "static/media/earth-americas-solid.svg": "/LOGITECH/static/media/earth-americas-solid.012bfc39d44c500e0bd5e712286bb104.svg",
     "index.html": "/LOGITECH/index.html",
-    "main.ffb0a0cc.css.map": "/LOGITECH/static/css/main.ffb0a0cc.css.map",
-    "main.23dedb5b.js.map": "/LOGITECH/static/js/main.23dedb5b.js.map"
+    "main.6d9e96f2.css.map": "/LOGITECH/static/css/main.6d9e96f2.css.map",
+    "main.b5d4add4.js.map": "/LOGITECH/static/js/main.b5d4add4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffb0a0cc.css",
-    "static/js/main.23dedb5b.js"
+    "static/css/main.6d9e96f2.css",
+    "static/js/main.b5d4add4.js"
   ]
 }
