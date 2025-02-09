@@ -36,15 +36,15 @@ const Banner = () => {
   useEffect(() => {
     if (isMobileMenuOpen) {
       document.body.classList.add("no-scroll1");
-      document.body.style.overflow = "hidden"; // Disable scroll
+      document.body.style.overflow = "hidden";
     } else {
       document.body.classList.remove("no-scroll1");
-      document.body.style.overflow = ""; // Re-enable scroll
+      document.body.style.overflow = ""; 
     }
   
     return () => {
       document.body.classList.remove("no-scroll1");
-      document.body.style.overflow = ""; // Make sure to clean up in case the component unmounts
+      document.body.style.overflow = ""; 
     };
   }, [isMobileMenuOpen]);
   
